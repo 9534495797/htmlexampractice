@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        h1::after{
+            content: counter(ANKIT CHAUBEY);
+        }
+        form{
+            border: 2px solid red;
+            background-color: antiquewhite;
+            text-align: center;display: inline-block;
+        }
+        #button:hover{
+            color:green;
+        }
+        #button:active{
+            color: blue;
+        }
+    </style>
+    <h1>IMPORTANT FORM</h1>
+    <form>
+        <label>NAME</label>
+        <input type="text" id="name"><br><br>
+        <p>education</p>
+        <label>TECH</label>
+        <input type="radio" id="TECH" name="education"><br><br>
+        <label>NON.TECH</label>
+        <input type="radio" id="NON.TECH" name="education"><br><br>
+        
+        <label>RESULT</label>
+        <input type="number" id="result"><br><br>
+        <label>NATIONALITY</label>
+        <select>
+            <option>choose</option>
+            <option>indian</option>
+            <option>pakistani</option>
+        </select><br><br>
+        <button id="button">upload</button>
+
+        
+    </form>
+</body>
+</html>
